@@ -11,6 +11,7 @@
     "bcryptjs": "^2.4.3",
     "bootstrap": "^5.1.1",
     "express": "^4.17.1",
+    "gh-pages": "^3.2.3",
     "mongodb": "^4.1.0",
     "mongoose": "^5.13.7",
     "passport": "^0.4.1",
@@ -24,6 +25,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

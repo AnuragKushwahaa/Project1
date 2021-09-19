@@ -6,7 +6,6 @@ import SignUp from "./SignUp";
 import Welcome from "./Welcome";
 import NavBar from "./NavBar/NavBar"
 import Fetchv from './Practice/Fetch';
-import Counter from './Practice/Counter';
 import VideoApp from './NavBar/Video';
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
       <Route path="/Welcome" exact component = {Welcome} />
       <Route path="/NavBar" exact component= {NavBar} />
       <Route path="/Fetch" exact component={Fetchv}></Route>
-      <Route path="/Counter" exact component={Counter} />
       <Route path="/Video" exact component={VideoApp} />
     </Switch>
     </>
