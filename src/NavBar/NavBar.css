@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.Main2 h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+}
+
+
+.Main{
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+@media (max-width: 768px){ 
+    .Main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+}
+
+.Main2{
+    padding-top: 0.5rem;
+    display: block;
+    overflow: hidden;
+}
+
+.PopularAnime{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    height: 325px;
+}
+
+.PopularAnime .aj{
+    padding: 0.5rem;
+    flex: 0 0 200px;
+}
+
+.PopularAnime::-webkit-scrollbar{
+    overflow: hidden;
+}
+
+
+
